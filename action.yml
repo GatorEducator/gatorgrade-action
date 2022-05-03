@@ -4,7 +4,7 @@ author: 'Katherine Burgess'
 runs:
   using: "composite"
   steps:
-    - run: echo
+    - run: |
       echo "::group::Install Gatorgrade"
       pip install gatorgrade
       echo "::endgroup::"
