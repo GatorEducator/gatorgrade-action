@@ -2,15 +2,13 @@ name: 'Gatorgrade'
 description: 'Execute Gatorgrade'
 author: 'Katherine Burgess'
 runs:
-  using:
+  using: "composite"
   steps:
-    - run: |
-        echo "::group:: Install Pipenv"
-        pip install pipenv==2022.4.21
-        echo "::endgroup::"
-        echo"::add-matcher::${{ github.action_path }}/gatorgrade-problem-matcher.json
-        gradle --no-daemon gradle
-        echo "::remove-matcher owner=gatorgrade::"
+    - run: echo
+      echo "::group::Install Gatorgrade"
+      pip install gatorgrade
+      echo "::endgroup::"
+      gatorgrade
       shell: bash
 branding:
   icon: 'user-check'
