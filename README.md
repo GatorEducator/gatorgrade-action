@@ -1,6 +1,6 @@
 # gatorgrade-action
 
-This GitHub Action runs Gatorgrade.
+This GitHub Action runs GatorGrade.
 
 ## Usage
 
