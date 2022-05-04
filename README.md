@@ -4,7 +4,7 @@ This GitHub Action runs GatorGrade.
 
 ## Usage
 
-Basic workflow to run Gatorgrade on every push to GitHub:
+Basic workflow to run GatorGrade on every push to GitHub:
 
 '''
 name: Grader
