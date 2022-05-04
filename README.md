@@ -13,8 +13,8 @@ jobs:
     grade:
         run-on: ubuntu-latest
         steps:
-            -name: Checkout repository
-             uses: actions/checkout@v2
-            -name: Run Gatorgrade
-             uses: GatorEducator/gatorgrade-action@v1
+            - name: Checkout repository
+                uses: actions/checkout@v2
+            - name: Run Gatorgrade
+                uses: GatorEducator/gatorgrade-action@v1
 '''
