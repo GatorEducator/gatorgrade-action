@@ -5,7 +5,7 @@ runs:
   using: "composite"
   steps:
     - run: |
-      echo "::group::Install Gatorgrade"
+      echo "::group::Install GatorGrade"
       pip install gatorgrade
       echo "::endgroup::"
       gatorgrade
