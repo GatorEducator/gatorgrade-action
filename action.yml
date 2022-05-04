@@ -5,10 +5,10 @@ runs:
   using: "composite"
   steps:
     - run: |
-      echo "::group::Install GatorGrade"
-      pip install gatorgrade
-      echo "::endgroup::"
-      gatorgrade
+        echo "::group::Install GatorGrade"
+        pip install gatorgrade
+        echo "::endgroup::"
+        gatorgrade
       shell: bash
 branding:
   icon: 'user-check'
