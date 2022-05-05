@@ -6,7 +6,7 @@ This GitHub Action runs GatorGrade.
 
 Basic workflow to run GatorGrade on every push to GitHub:
 
-'''
+```
 name: Grader
 on: [push]
 jobs:
@@ -17,4 +17,4 @@ jobs:
                 uses: actions/checkout@v2
             - name: Run Gatorgrade
                 uses: GatorEducator/gatorgrade-action@v1
-'''
+```
